@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Automated software testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation"
+  ],
+  "author": "Sergey Molchun",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.2.0",
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^3.0.2"
+  }
+}
