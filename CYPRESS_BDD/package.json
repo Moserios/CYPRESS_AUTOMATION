@@ -1,0 +1,28 @@
+{
+  "name": "cypress_bdd",
+  "version": "1.0.0",
+  "description": "CYPRESS BDD Automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD"
+  ],
+  "author": "Sergey Molchum",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^3.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "noGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/**/",
+    "cucumberJson": {
+      "generate": false
+    }
+  }
+}

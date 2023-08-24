@@ -1,0 +1,19 @@
+{
+  "name": "cy-visual-regress-percy",
+  "version": "1.0.0",
+  "description": "visual regression testing using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run-tests": "cypress run",
+    "cy:update-snaphots": "cypress run --env updateSnapshots=true"
+  },
+  "keywords": [ "cypress", "regression"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.12.1",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^3.0.2"
+  }
+}
