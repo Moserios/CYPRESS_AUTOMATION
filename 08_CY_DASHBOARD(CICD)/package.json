@@ -1,0 +1,23 @@
+{
+  "name": "08_cy_dashboard(cicd)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:cloud": "npx cypress run --record --key da6c12c0-21e7-4c7b-8308-fc9273a849b3",
+    "start-jenkins-server": "java -jar jenkins.war -httpPort=8080 --enable-future-java"
+  },
+  "keywords": [],
+  "author": "Sergey Molchun",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "prettier": "^3.0.2" 
+  }
+}
+
